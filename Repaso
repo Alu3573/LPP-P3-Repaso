@@ -1,4 +1,508 @@
 1. ¿Cuáles son los paradigmas de programación más importantes? Enumerelos y describalos.
-	1.Programación imperativa: Describe la programación en términos del estado del programa y sentencias que cambian dicho estado.
-	2.Programación funcional: Paradigma de progrmación declarativa basado en la utilización de funciones aritméticas que no maneja datos mutables o de estado.
-    3.Programación declarativa: Está basado en el desarrollo de programas especificando o "declarando" un conjunto de condiciones, proposiciones, afirmaciones, restricciones, ecuaciones o transformaciones que describen el problema y detallan su solución.
+	1. Programación imperativa: Describe la programación en términos del estado del programa y sentencias 
+	que cambian dicho estado.
+	2. Programación funcional: Paradigma de progrmación declarativa basado en la utilización de funciones 
+	aritméticas que no maneja datos mutables o de estado.
+    3. Programación declarativa: Está basado en el desarrollo de programas especificando o "declarando" 
+    un conjunto de condiciones, proposiciones, afirmaciones, restricciones, ecuaciones o transformaciones 
+    que describen el problema y detallan su solución.
+    4. Programación Orientada a Objetos (OOP): Es un paradigma de programación que usa los objetos en sus 
+    interacciones, para diseñar aplicaciones y programas informáticos.
+
+2. ¿Cuáles son las principales diferencias entre un sistema de control de cambios y configuraciones distribuido y uno centralizado?
+
+3. ¿Que es un registro de activación (stack frame)?
+
+4. Considere los lenguajes imperativos: ¿En que zona de la memoria se suelen almacenar las variables locales?
+
+5. ¿Qué es un subprograma?
+
+6. ¿Qué es git?
+
+7. ¿Qué son github y bitbucket?
+
+8. ¿Qué es un repositorio?
+
+9. ¿Qué es una rama?
+
+10. ¿Qué es una etiqueta (tag)?
+
+11. ¿Qué es un asiento (commit)?
+
+12. ¿Qué es un escenario (stage o index)?
+
+13. Complete los comandos:
+$ git config ________ user._____ "Firstname Lastname"
+$ git config ________ user._____ "your_email@youremail.com"
+
+14. ¿Cómo se pueden ver los valores de una configuración git?
+
+15. ¿Cómo se puede hacer que git ignore ciertos ficheros?
+
+16. ¿Cómo se crea un repositorio git?
+
+17. ¿Cómo se clona un repositorio git?
+
+18. ¿Cómo se añaden cambios para que están bajo el control de git?
+
+19. ¿Cómo se envían los cambios añadidos al repositorio?
+
+20. ¿Cómo se configura qué editor se ejecuta para los mensajes de registro (log)?
+
+git config --global core.________ ________
+
+21. ¿Para qu ́ sirven y en qu ́ difieren los ficheros /etc/gitconfig, ~/.gitconfig ~/.git/config?
+e
+e
+22. ¿C ́mo se ve el estado de mis ficheros con respecto al repositorio?
+o
+23. ¿Qu ́ significa que un fichero aparezca en la secci ́n Changes to be committed: del estado de git?
+e
+o
+24. ¿Qu ́ significa que un fichero aparezca en la secci ́n new file: del estado de git ?
+e
+o
+25. ¿Qu ́ significa que un fichero aparezca en la secci ́n modified:: del estado de git?
+e
+o
+26. ¿Qu ́ significa que un fichero este sin rastrear (untracked)?
+e
+27. ¿Qu ́ compara el comando git diff cuando no se le pasan opciones?
+e
+28. ¿Qu ́ opci ́n hay que pasarle a git commit para especificar el mensaje de log y evitar que abra
+e
+o
+el editor?
+29. ¿Qu ́ opci ́n hay que pasarle a git commit para que a ̃ada todos los cambios efectuados en
+e
+o
+n
+ficheros rastreados (tracked)?
+30. ¿Qu ́ informaci ́n muestra por la consola git log para cada asiento (commit) cuando se llama
+e
+o
+sin argumentos?
+31. ¿Qu ́ hace la opci ́n --graph de git log?
+e
+o
+32. ¿Qu ́ muestra el comando git remote?
+e
+33. ¿Qu ́ muestra el comando git remote -v?
+e
+34. ¿C ́mo se a ̃ade un nuevo repositorio remoto?
+o
+n
+35. ¿Qu ́ repositorio remoto queda establecido cuando se hace git clone?
+e
+36. ¿C ́mo se env ́ los cambios en el repositorio local en la rama master al repositorio remoto
+o
+ıan
+apuntado por origin?
+37. ¿Cu ́l es el comando para generar una pareja clave-privada clave-p ́blica? ¿Con qu ́ argumentos
+a
+u
+e
+se llama?
+38. ¿Qu ́ permisos debe tener la clave privada y d ́nde debe estar?
+e
+o
+39. En el contexto de las herramienta de construcci ́n ¿Qu ́ es una dependencia?
+o
+e
+40. ¿Qu ́ es Rake?
+e
+41. ¿C ́mo se describe una tarea en Rake?
+o
+42. ¿Qu ́ muestra el comando rake -T?
+e
+43. ¿Qu ́ indican los siguientes prefijos/sufijos?
+e
+$
+@
+@@
+44. ¿Qu ́ n ́meros son 010, 0x1F, 0b1111?
+e u
+45. ¿Es correcto escribir subguiones en un n ́mero (por ejemplo: 1_000_000)?
+u
+46. ¿Qu ́ diferencia hay entre "\t\n" y ’\t\n’?
+e
+47. ¿C ́mo funciona %q? ¿Qu ́ es %q{hello world\n}? ¿Qu ́ es %q{’a’ ’b’ ’c’}?
+o
+e
+e
+48. ¿C ́mo funciona %Q? ¿Qu ́ es %Q{hello world\n}? ¿Qu ́ es %Q{"a" "b" "c"}?
+o
+e
+e
+49. ¿Qu ́ queda en c?
+e
+irb(main):001:0>
+=> 4
+irb(main):002:0>
+=> 2
+irb(main):003:0>
+irb(main):004:0"
+irb(main):005:0"
+irb(main):006:0"
+a = 4
+b =2
+c = <<HERE
+--#{a}--
+--#{b}--
+HERE
+50. ¿Qu ́ queda en c?
+e
+irb(main):001:0>
+=> 4
+irb(main):002:0>
+=> 2
+irb(main):008:0>
+irb(main):009:0’
+irb(main):010:0’
+irb(main):011:0’
+a = 4
+b =2
+c = <<’HERE’
+--#{a}--
+--#{b}--
+HERE
+51. s = "hello". ¿Cu ́l es el valor de las siguientes expresiones?
+a
+s[0,2]
+s[-1,1]
+s[0,10]
+52. ¿Qu ́ queda en g?
+e
+>> g = "hello"
+=> "hello"
+>> g << " world"
+53. ¿Qu ́ queda en e?
+e
+>> e = ’.’*3
+54. ¿Cu ́l es el resultado?
+a
+>> a = 1
+=> 1
+>> "#{a=a+1} "*3
+55. ¿Qu ́ es esto? %w[this is a test]
+e
+56. ¿Qu ́ es esto? %w[\t \n]
+e
+57. ¿Qu ́ es esto? %W[\t \n]
+e
+58. ¿Qu ́ contiene nils? nils = Array.new(3)
+e
+59. ¿Qu ́ contiene zeros? zeros = Array.new(3, 0)
+e
+60. ¿Qu ́ queda en b?
+e
+>> x = [[1,2],[3,4]]
+=> [[1, 2], [3, 4]]
+>> b = Array.new(x)
+61. ¿Qu ́ queda en c?
+e
+>> c = Array.new(3) { |i| 2*i }
+62. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+a = (’a’..’e’).to_a
+["a", "b", "c", "d", "e"]
+a[1,1]
+a[-2,2]
+a[0..2]
+a[0...1]
+a[-2..-1]
+63. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+a
+["a", "b", "c", "d", "e"]
+a[0,2] = %w{A B}
+["A", "B"]
+a
+a[2..5] = %w{C D E}
+["C", "D", "E"]
+a
+a[0,0] = [1,2,3]
+[1, 2, 3]
+a
+a[0,2] = []
+[]
+a
+a[-1,1] = [ ’Z’ ]
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+["Z"]
+a
+a[-2,2] = nil
+nil
+a
+64. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+a = (1...4).to_a
+a = a + [4, 5]
+a += [[6, 7, 8]]
+a = a + 9
+65. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+a = []
+[]
+a << 1
+a << 2 << 3
+a << [4, 5, 6]
+a.concat [7, 8]
+66. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>> x = %w{a b c b a}
+=>
+>> x = x - %w{b c d}
+=>
+67. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>> z = [0]*8
+=>
+68. ¿Cu ́l es el resultado de cada una de estas operaciones?
+a
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+a =
+[1,
+b =
+[5,
+c =
+[1, 1, 2, 2, 3, 3, 4]
+1, 2, 2, 3, 3, 4]
+[5, 5, 4, 4, 3, 3, 2]
+5, 4, 4, 3, 3, 2]
+a | b
+d = b | a
+e = a & b
+f = b & a
+69. ¿Qu ́ resultados dan las siguientes operaciones?
+e
+>>
+=>
+>>
+=>
+>>
+a = 1..10
+1..10
+a.class
+Range
+a.to_a
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+b = 1...10
+1....10
+b.to_a
+b.include? 10
+b.include? 8
+b.step(2) {|x| print "#{x} " }
+>> 1..3.to_a
+70. ¿Qu ́ resultados dan las siguientes operaciones?
+e
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+r = 0...100
+0....100
+r.member? 50
+r.include? 99.9
+r.member? 99.9
+71. ¿Qu ́ resultados dan las siguientes operaciones?
+e
+>> true.class
+=>
+>> false.class
+=>
+>> puts "hello" if 0
+>> puts "hello" if nil
+>> puts "hello" if ""
+>>
+72. ¿Qu ́ resultados dan las siguientes operaciones?
+e
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+x = :sym
+:sym
+x.class
+x == ’sym’
+x == :sym
+z = :’a long symbol’
+:"a long symbol"
+z.class
+x == ’sym’.to_sym
+x.to_s == ’sym’
+73. ¿Qu ́ resultados se dan?
+e
+>>
+=>
+>>
+=>
+>>
+=>
+s = "Ruby"
+"Ruby"
+t = s
+"Ruby"
+t[-1] = ""
+""
+>> print s
+>> t = "Java"
+=> "Java"
+>> print s, t
+74. ¿Qu ́ resultados dan las siguientes operaciones?
+e
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+>>
+=>
+x = { :a => 1, :b => 2 }
+{:b=>2, :a=>1}
+x.keys
+x.values
+x[:c] = 3
+3
+x
+x.delete(’a’)
+nil
+x
+x.delete(:a)
+1
+x
+x = { :a => 1, :b => 2, :c => 4 }
+{:b=>2, :c=>4, :a=>1}
+x.delete_if { |k,v| v % 2 == 0 }
+x
+75. ¿Cu ́l es el resultado?
+a
+>> "%d %s" % [3, "rubies"]
+=>
+76. ¿Cuáles son los resultados?
+
+>> x, y = 4, 5
+=> 
+>> z = x > y ? x : y
+=>
+>> x,y,z = [1,2,3]
+=> [1, 2, 3]
+
+77. ¿Qué hace yield 4, 5?
+
+78. ¿Qué hace la siguiente sentencia? counts = Hash.new(0) ¿Qué diferencia hay con la asignación counts = {}?
+
+79. ¿Qué retorna esta expresión? ’hello world, hello LPP’.scan /\w+/
+
+80. Explique que hacen estas sentencias:
+
+c = { :a => 3, :b => 2, :c => 1 }
+c.keys.sort.each { |k| puts c[k] }
+
