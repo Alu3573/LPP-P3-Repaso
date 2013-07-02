@@ -1,1 +1,4 @@
 1. ¿Cuáles son los paradigmas de programación más importantes? Enumerelos y describalos.
+	1.Programación imperativa: Describe la programación en términos del estado del programa y sentencias que cambian dicho estado.
+	2.Programación funcional: Paradigma de progrmación declarativa basado en la utilización de funciones aritméticas que no maneja datos mutables o de estado.
+    3.Programación declarativa: Está basado en el desarrollo de programas especificando o "declarando" un conjunto de condiciones, proposiciones, afirmaciones, restricciones, ecuaciones o transformaciones que describen el problema y detallan su solución.
